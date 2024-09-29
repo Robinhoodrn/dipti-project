@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipti-presentation-project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- navbar js.link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+   <header class="bg-[#bfdbfe] py-20 px-4 md:px-32">
+      <!-- navbar start-->
+      <nav class="bg-gray-800 p-4 rounded">
+         <div class="container mx-auto flex justify-between items-center">
+             <div class="text-white font-bold text-xl">
+                 <a href="#"><span class="text-[#dc2626] text-4xl font-bold">PENGUIN FASHION</span></a>
+             </div>
+             <div class="hidden md:flex space-x-4">
+                 <a href="#" class="text-white hover:text-gray-400">Home</a>
+                 <a href="#" class="text-white hover:text-gray-400">About-us</a>
+                 <div class="relative">
+                     <button id="dropdownButton" class="text-white hover:text-gray-400 focus:outline-none">Services</button>
+                     <div id="dropdownMenu" class="absolute right-0 hidden bg-white text-black mt-2 rounded shadow-lg z-10">
+                         <a href="#" class="block px-4 py-2 hover:bg-gray-200">Service 1</a>
+                         <a href="#" class="block px-4 py-2 hover:bg-gray-200">Service 2</a>
+                         <a href="#" class="block px-4 py-2 hover:bg-gray-200">Service 3</a>
+                     </div>
+                 </div>
+                 <a href="#" class="text-white hover:text-gray-400">Contact</a>
+             </div>
+             <div class="md:hidden">
+                 <button id="mobileMenuButton" class="text-white focus:outline-none">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                 </button>
+             </div>
+         </div>
+     </nav>
+    <!-- banner section -->
+    <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="space-y-5">
+           <h1 class="text-7xl">
+            <span class="text-[#f59e0b]">BE THE PENGUINS</span>
+            <br>
+             OF WINTER</h1>
+             <p class="font-medium">
+                Penguin fashion is quite the sight,
+                In tuxedos black and white,
+                With their sleek bodies and 
+                <br>flippered grace,
+                They waddle through life with style and pace.
+                <br>Tiny bow ties and top hats for special occasions—like a wedding in the icy landscape.
+                <br>
+                Brightly colored swim trunks or floral shirts for a summer vibe, complete with sunglasses and sun hats.
+             </p>
+             <button class="py-4 px-9 bg-gradient-to-r from-red-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+        </div>
+        <div>
+           <img src="images/model.png" alt="">
+        </div>
+    </div>
+   </header>
+   <!-- header end ------------------>
+   <main class="max-w-7xl mx-auto">
+      <!-- woman jackets section ----------------->
+        <section class="py-20">
+         <h3 class="text-6xl font-bold">Woman Jackets</h3>
+         <!-- jackets container -->
+          <div class="grid grid-cols-1 md:cols-2 lg:grid-cols-3 gap-20 py-20">
+            <!-- jacket-1 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-1.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$200</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-stone-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+            <!-- jacket-2 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-2.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$500</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+            <!-- jacket-3 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-3.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$280</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+          </div>
+        </section>
+        <!-- Man jacket section start-------------------------------------------->
+        <section class="py-20">
+         <h3 class="text-6xl font-bold">Woman Jackets</h3>
+         <!-- jackets container -->
+          <div class="grid grid-cols-1 md:cols-2 lg:grid-cols-3 gap-20 py-20">
+            <!-- jacket-1 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-4.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$450</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+            <!-- jacket-2 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-5.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$350</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+            <!-- jacket-3 -->
+            <div class="space-y-3 drop-shadow-lg">
+               <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
+                  <img src="images/jacket-6.png" alt="">
+               </div>
+               <h4 class="text-3xl font-bold"> Yellow coat jacket</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat voluptatem, dolorem corrupti itaque beatae dolores officiis velit dignissimos quod?</p>
+               <div class="flex justify-between">
+                  <h3 class="text-4xl font-black text-orange-400">$300</h3>
+                  <button class="py-4 px-9 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl uppercase text-white font-medium">Buy Now</button>
+               </div>
+            </div>
+          </div>
+        </section>
+   </main>
+   <!-- footer section--------------------- -->
+   <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between">
+          <div class="mb-4 md:mb-0">
+            <h2 class="text-lg font-bold">PENGUIN FASHION</h2>
+            <p class="text-sm">Your tagline or brief description goes here.</p>
+          </div>
+          <div class="flex flex-col md:flex-row md:space-x-8">
+            <a href="#" class="text-sm hover:underline">Home</a>
+            <a href="#" class="text-sm hover:underline">About</a>
+            <a href="#" class="text-sm hover:underline">Services</a>
+            <a href="#" class="text-sm hover:underline">Contact</a>
+          </div>
+          <div class="flex space-x-4 mt-4 md:mt-0">
+            <a href="#" class="text-gray-400 hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c6.627 0 12 5.373 12 12 0 5.52-3.688 10.135-8.5 11.84v-8.338h2.521l.375-2.912h-2.896v-1.843c0-.841.233-1.415 1.43-1.415h1.526v-2.574c-.264-.036-1.17-.119-2.224-.119-2.196 0-3.691 1.345-3.691 3.821v2.099h-2.5v2.912h2.5v8.338c-4.812-1.705-8.5-6.32-8.5-11.84 0-6.627 5.373-12 12-12z"/></svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.225 6.568c-.775.344-1.604.575-2.475.676.889-.532 1.568-1.378 1.892-2.376-.832.493-1.754.853-2.732 1.047-.784-.837-1.895-1.36-3.126-1.36-2.365 0-4.28 1.914-4.28 4.28 0 .335.038.66.111.974-3.552-.178-6.698-1.879-8.805-4.464-.367.631-.577 1.363-.577 2.145 0 1.48.754 2.788 1.9 3.548-.703-.022-1.363-.215-1.943-.537v.054c0 2.067 1.468 3.797 3.425 4.191-.359.097-.738.149-1.126.149-.275 0-.54-.027-.798-.079.54 1.688 2.094 2.917 3.935 2.947-1.446 1.136-3.258 1.814-5.236 1.814-.34 0-.679-.02-1.013-.058 1.884 1.205 4.133 1.906 6.551 1.906 7.874 0 12.17-6.518 12.17-12.17 0-.185-.005-.37-.012-.554.835-.603 1.56-1.358 2.136-2.211z"/></svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2c6.627 0 12 5.373 12 12 0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12zm0 22c5.516 0 10-4.484 10-10s-4.484-10-10-10-10 4.484-10 10 4.484 10 10 10zm-2-15h4v-2h-4v2zm0 4h4v-2h-4v2zm0 4h4v-2h-4v2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="text-center mt-6 text-sm">
+          &copy; 2024 Company Name. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    
+   <!-- navbar js link------ -->
+   <script>
+      const dropdownButton = document.getElementById('dropdownButton');
+      const dropdownMenu = document.getElementById('dropdownMenu');
+      const mobileMenuButton = document.getElementById('mobileMenuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const mobileDropdownButton = document.getElementById('mobileDropdownButton');
+      const mobileDropdownMenu = document.getElementById('mobileDropdownMenu');
+
+      dropdownButton.addEventListener('click', () => {
+          dropdownMenu.classList.toggle('hidden');
+      });
+
+      mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+      });
+
+      mobileDropdownButton.addEventListener('click', () => {
+          mobileDropdownMenu.classList.toggle('hidden');
+      });
+  </script>
+</body>
+</html>
